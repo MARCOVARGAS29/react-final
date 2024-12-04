@@ -1,0 +1,80 @@
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra moderna */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff; /* Tono celeste */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333; /* Texto oscuro */
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd; /* Borde claro */
+    border-radius: 6px;
+    background-color: #f9f9f9; /* Fondo ligeramente gris */
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007bff; /* Celeste al enfocar */
+    background-color: #ffffff; /* Blanco puro al enfocar */
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); /* Sombra azul suave */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Fondo celeste */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); /* Sombra inicial */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Celeste oscuro al pasar el mouse */
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3); /* Sombra más fuerte */
+    transform: translateY(-2px); /* Efecto de levantamiento */
+  }
+  
+  button:active {
+    transform: translateY(0); /* Restaura al hacer clic */
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los elementos */
+  }
+  
+  .login-container form .form-group:last-child {
+    margin-bottom: 0; /* Quita margen del último campo */
+  }
+  
